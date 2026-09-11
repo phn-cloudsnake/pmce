@@ -51,6 +51,9 @@ export default configure(() => {
         appId: 'com.homa.pmce',
         productName: 'PMCE',
         electronVersion: '33.4.11',
+        // Only package installers; publishing to the GitHub Release is handled
+        // by the CI workflow's separate release job, not by electron-builder.
+        publish: null,
         mac: {
           target: 'dmg',
           icon: 'public/icons/ios/Icon-1024x1024.png',

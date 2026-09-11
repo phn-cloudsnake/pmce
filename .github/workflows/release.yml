@@ -74,10 +74,9 @@ jobs:
 
       - name: Build desktop app (electron)
         # electron-builder reads config from quasar.config.ts and outputs to
-        # pmce-app/dist/electron/Packaged. Passing the token lets it publish
-        # release assets on tag builds; on manual runs it just packages.
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # pmce-app/dist/electron/Packaged. We only PACKAGE here (no token, so
+        # electron-builder never enters publish mode). The separate `release`
+        # job publishes the installers to the GitHub Release.
         run: pnpm --filter pmce-app run build
 
       - name: Upload build artifacts

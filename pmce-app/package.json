@@ -5,6 +5,10 @@
   "description": "Play Memories Community Edition — Desktop GUI",
   "productName": "PMCE",
   "author": "phn-cloudsnake",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phn-cloudsnake/pmce.git"
+  },
   "scripts": {
     "dev": "quasar dev -m electron",
     "build": "quasar build -m electron",
