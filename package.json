@@ -1,0 +1,28 @@
+{
+  "name": "pmce",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Play Memories Community Edition (PMCE) — monorepo containing a Sony camera USB protocol library and a desktop GUI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/phn-cloudsnake/pmce.git"
+  },
+  "homepage": "https://github.com/phn-cloudsnake/pmce#readme",
+  "bugs": {
+    "url": "https://github.com/phn-cloudsnake/pmce/issues"
+  },
+  "scripts": {
+    "build": "pnpm -r run build",
+    "test": "pnpm -r run test",
+    "lint": "pnpm -r run lint",
+    "dev:gui": "pnpm --filter pmce-app run dev",
+    "build:gui": "pnpm --filter pmce-app run build",
+    "build:lib": "pnpm --filter pmce-usb-interface run build",
+    "test:lib": "pnpm --filter pmce-usb-interface run test"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "license": "MIT",
+  "packageManager": "pnpm@9.15.4"
+}

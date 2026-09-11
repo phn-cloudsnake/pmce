@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>PlayMemories AppStore — App Details (Tailwind)</title>
+  <meta name="description" content="Professional product details page built with Tailwind CSS" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    /* small extras */
+    .glass {
+      background: rgba(255, 255, 255, 0.6);
+      backdrop-filter: blur(6px);
+    }
+
+    .price-shadow {
+      text-shadow: 0 1px 0 rgba(0, 0, 0, 0.03);
+    }
+  </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800 antialiased">
+  <main class="max-w-6xl mx-auto p-6 lg:p-10">
+    <!-- Breadcrumb / Header -->
+    <nav class="text-sm text-gray-500 mb-6" aria-label="Breadcrumb">
+      <ol class="flex items-center gap-2">
+        <li><a href="#" class="hover:underline">Back to products</a></li>
+        <li>•</li>
+        <li class="text-gray-700">Timelapse V2</li>
+      </ol>
+    </nav>
+
+    <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-start">
+      <!-- LEFT: Images -->
+      <div class="space-y-4">
+        <div class="rounded-xl overflow-hidden bg-white p-6 shadow-sm">
+          <div class="relative">
+            <!-- <span class="absolute left-4 top-4 inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-red-500 text-white shadow">6% OFF</span> -->
+            <img src="" alt="Timelapse Image" class="w-full h-96 object-cover rounded-lg" />
+          </div>
+          <div class="mt-4 flex gap-3 items-center">
+            <div class="w-16 h-16 rounded-md border p-1 flex items-center justify-center bg-white">
+              <img src="" alt="Timelapse Image Icon" class="w-full h-full object-cover rounded-sm" />
+            </div>
+            <div>
+              <dt class="text-xs text-gray-500">Supported Cameras</dt>
+              <dd class="mt-1">
+                <span class="inline-block px-3 py-1 rounded-full text-xs bg-blue-50 text-blue-700">ILCE-6000</span>
+              </dd>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-white rounded-xl p-4 shadow-sm">
+          <h3 class="text-sm font-semibold text-gray-700 mb-2">About this App</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">This app automatically shoots a series of still images at
+            intervals then combines them into one movie. It's so easy to use: just select a time-lapse mode that most
+            closely resembles what you are shooting and let the camera do the rest! The proper settings are
+            automatically made for you, eliminating the need for time-consuming trial and error. Eight time-lapse themes
+            are available: Cloudy Sky, Night Sky, Night Scene, Sunset, Sunrise, Miniature, Standard, Custom. You can
+            choose to save the still images as a series of photos instead of a movie. Using Angle Shift Add-on, you can
+            easily add pan, tilt, zoom and other effects to your time-lapse images.</p>
+        </div>
+      </div>
+
+      <!-- RIGHT: Product Info -->
+      <aside class="sticky top-6">
+        <div class="bg-white rounded-xl shadow p-6 lg:p-8">
+          <h1 class="text-2xl lg:text-3xl font-extrabold leading-tight">Time-Lapse <span
+              class="text-base font-medium text-gray-500">v3.4</span></h1>
+          <dl class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-600">
+            <div>
+              <dt class="text-xs text-gray-500">Space Required</dt>
+              <dd class="mt-1">9MB</dd>
+            </div>
+          </dl>
+          <hr class="my-6" />
+          <!-- TODO: Create green connected state badge when camera is connected and set camera parameters -->
+          <div class="text-h6 q-mb-sm">Camera <span class="inline-block px-3 py-1 rounded-full text-xs bg-red-50 text-red-700">DISCONNECTED</span></div>
+          <dl class="grid grid-cols-2 gap-x-6 gap-y-2 text-sm text-gray-600">
+            <div>
+              <dt class="text-xs text-gray-500">Model</dt>
+              <dd class="mt-1">undefined</dd>
+            </div>
+            <div>
+              <dt class="text-xs text-gray-500">Product Code</dt>
+              <dd class="mt-1">undefined</dd>
+            </div>
+            <div>
+              <dt class="text-xs text-gray-500">Serial Number</dt>
+              <dd class="mt-1">undefined</dd>
+            </div>
+            <div>
+              <dt class="text-xs text-gray-500">Firmware Version</dt>
+              <dd class="mt-1">undefined</dd>
+            </div>
+            <div>
+              <dt class="text-xs text-gray-500">Lens</dt>
+              <dd class="mt-1">undefined</dd>
+            </div>
+          </dl>
+
+          <hr class="my-6" />
+
+          
+
+          <div class="max-w-3xl mx-auto pt-6">
+            <!-- TODO: disable button when no camera is detected-->
+            <button class="w-full bg-green-600 text-white rounded-full py-3 font-semibold shadow-lg">
+              INSTALL APP</button>
+          </div>
+          <!-- TODO: Extract app documentation and extend the App Details Page with this additional information -->
+        </div>
+      </aside>
+    </section>
+  </main>
+</body>
+
+</html>

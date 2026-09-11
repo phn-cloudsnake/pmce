@@ -1,0 +1,37 @@
+{
+  "name": "pmce-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Play Memories Community Edition — Desktop GUI",
+  "productName": "PMCE",
+  "author": "phn-cloudsnake",
+  "scripts": {
+    "dev": "quasar dev -m electron",
+    "build": "quasar build -m electron",
+    "build:spa": "quasar build",
+    "lint": "eslint --ext .js,.ts,.vue src",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.16.15",
+    "pinia": "^2.3.1",
+    "pmce-usb-interface": "workspace:*",
+    "quasar": "^2.17.7",
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0",
+    "yaml": "^2.9.0"
+  },
+  "devDependencies": {
+    "@electron/packager": "^18.3.6",
+    "@quasar/app-vite": "^2.1.1",
+    "@types/node": "^22.10.5",
+    "electron": "^33.3.1",
+    "electron-builder": "^25.1.8",
+    "typescript": "^5.4.5",
+    "vite": "^5.4.21",
+    "vue-tsc": "^2.2.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

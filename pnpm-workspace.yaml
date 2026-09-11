@@ -1,0 +1,3 @@
+packages:
+  - 'pmca-device-usb-interface'
+  - 'pmce-app'

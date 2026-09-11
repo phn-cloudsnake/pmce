@@ -1,0 +1,925 @@
+apps:
+  - id: angle-shift
+    name: Angle Shift Add-on
+    icon: angle-shift-add-on-icon.png
+    bgImage: angle-shift-add-on.png
+    packageName: com.sony.imaging.app.angleshiftaddon
+    version: "1.00"
+    size: 11MB
+    price: End of Sales
+    description: >-
+      You can easily add pan, tilt, zoom and other effects to your time-lapse
+      images — in the camera without extra equipment or computer editing. The
+      high-resolution still images you created for a time-lapse movie are used
+      to create a new HD-quality time-lapse movie with even greater impact.
+      Note: This app will not work on its own. Use this app after launching
+      Time-lapse Ver. 3.10 or later.
+    cameras:
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.angleshiftaddon-2.apk
+
+  - id: bracket-pro
+    name: Bracket Pro
+    packageName: com.sony.imaging.app.bracketpro
+    version: "1.52"
+    size: 71MB
+    price: End of Sales
+    description: >-
+      This lets you automatically bracket photos by shutter speed, aperture,
+      focus or flash. With just one press of the shutter the camera snaps three
+      shots at different shutter speed, aperture or focus settings, or two
+      photos (one with flash and the other without). Bracketing assures that
+      photos have just the right look, especially if you are unsure about the
+      proper settings. After shooting you can select the best shot from the
+      bracketed images.
+    cameras:
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.bracketpro-1.apk
+
+  - id: catch-light
+    name: Catch Light
+    packageName: com.sony.imaging.app.catchlight
+    version: "1.00"
+    size: 63MB
+    price: Free (BETA)
+    description: >-
+      Make faces in photos expressive by adding light reflections or catch
+      lights on eyes. You can add them to existing photos. Faces are
+      automatically detected, and you can choose catch light patterns you like.
+      This is a BETA application intended to evolve by feedback from customers.
+    cameras:
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.catchlight-1.apk
+
+  - id: digital-filter
+    name: Digital Filter
+    packageName: com.sony.imaging.app.digitalfilter
+    version: "1.00"
+    size: 11MB
+    price: End of Sales
+    description: >-
+      Digital Filter allows you to divide the scene into two or three areas
+      and optimize the exposure and white balance for each area, helping you
+      to shoot the best image. This application is perfect for scenes
+      containing vastly different brightness levels, such as in backlit
+      landscape scenes. These features enable you to enjoy the same wide
+      dynamic range as if using a graduated ND filter or reverse graduated
+      ND filter.
+    cameras:
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+    apkFile: com.sony.imaging.app.digitalfilter-1.apk
+
+  - id: id-photo
+    name: ID Photo
+    packageName: com.sony.imaging.app.idphoto
+    version: "1.00"
+    size: 51MB
+    price: Free (BETA)
+    description: >-
+      Take ID photos easily. Specify an ID photo format and a paper size, take
+      a photo, and you get an ID photo where position and size of the face are
+      automatically adjusted. You can choose easy-to-use preset formats or set
+      custom dimensions.
+    cameras:
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.idphoto-1.apk
+
+  - id: jpegcam
+    name: JPEGCAM
+    packageName: com.jpegcam.sony
+    version: "2.03"
+    size: 1.6MB
+    price: Free (PRO unlock $20 one-time)
+    description: >-
+      JPEG.CAM is a custom application that installs directly onto a Sony
+      camera's internal hardware via the PlayMemories Camera Apps (PMCA)
+      system, taking over the camera screen to provide a film-inspired
+      shooting experience. It intercepts the camera's physical dials and
+      processes in-camera JPEGs using custom .cube LUTs, and adds
+      heads-up displays with physics-based focus mapping for use with
+      vintage manual lenses. A built-in web server lets users upload LUTs
+      and lens profiles from a phone. The free LIGHT tier includes one
+      customizable slot, while the one-time $20 PRO unlock adds a
+      personal recipe library.
+    cameras:
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - ILCA-77M2
+      - ILCA-99M2
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: JPEGCAM-v2.03.apk
+
+  - id: lens-compensation
+    name: Lens Compensation
+    packageName: com.sony.imaging.app.manuallenscompensation
+    version: "2.41"
+    size: 58MB
+    price: End of Sales
+    description: >-
+      This app lets users manually select correction values for lens peripheral
+      shading, chromatic aberration and distortion. By saving the correction
+      values as a lens profile, the same correction can be applied when shooting
+      either still images or movies. Saved profiles can be used in other cameras
+      by transferring them via memory card.
+    cameras:
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.manuallenscompensation-1.apk
+
+  - id: light-painting
+    name: Light Painting
+    packageName: com.sony.imaging.app.lightgraffiti
+    version: "1.11"
+    size: 85MB
+    price: End of Sales
+    description: >-
+      This application shoots light traces drawn with a penlight or other light
+      source to create photo art (light paintings). Light traces are
+      automatically extracted from the image and can be superimposed on a
+      background to create an art work. Unlike typical long-exposure light
+      paintings, this application easily achieves light paintings without
+      complicated camera settings or computer editing.
+    cameras:
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.lightgraffiti-2.apk
+
+  - id: light-shaft
+    name: Light Shaft
+    packageName: com.sony.imaging.app.lightshaft
+    version: "1.22"
+    size: 69MB
+    price: End of Sales
+    description: >-
+      Add a splash of light to your photos and transform everyday shots into
+      fantastic displays of light and magic. Choose from one of four different
+      light shapes: Ray, Star, Flare and Beam. You can also specify where you
+      want the light to fall as well as adjust light intensity, length, width
+      and number of light rays. This app makes a copy of the photo, leaving the
+      original untouched.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.lightshaft-1.apk
+
+  - id: light-trail
+    name: Light Trail
+    packageName: com.sony.imaging.app.lighttrail
+    version: "1.00"
+    size: 71MB
+    price: End of Sales
+    description: >-
+      This application captures light trails from fireworks or the headlights
+      of moving cars in a single magical photo. Long-exposure photography
+      previously required skill to produce, but can now be achieved easily
+      using this innovative application. It only renders light trails from
+      bright objects that change or move to prevent other bright objects from
+      appearing too bright.
+    cameras:
+      - ILCE-5100
+      - ILCE-7S
+    apkFile: com.sony.imaging.app.lighttrail-1.apk
+
+  - id: liveview-grading
+    name: Liveview Grading
+    packageName: com.sony.imaging.app.liveviewgrading
+    version: "1.32"
+    size: 85MB
+    price: End of Sales
+    description: >-
+      This app expands creative possibilities by letting you fine-tune the color
+      of your movies while viewing the effects in real-time. What used to
+      require special equipment or software can now be done with just your
+      camera. You can adjust color depth, color saturation and other parameters
+      manually or apply one of several presets — such as Clear, Vivid,
+      Monochrome or Bold — to produce popular tonal effects with ease.
+    cameras:
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+    apkFile: com.sony.imaging.app.liveviewgrading-1.apk
+
+  - id: motion-shot
+    name: Motion Shot
+    packageName: com.sony.imaging.app.motionshot
+    version: "1.42"
+    size: 85MB
+    price: End of Sales
+    description: >-
+      Express the breathtaking dynamism and energy of fast-moving subjects. A
+      sequence of shots taken in continuous shooting mode are superimposed to
+      make one truly expressive photo of action scenes like sports and speeding
+      subjects. You can select first and last images of the sequence, adjust
+      spacing between images and customize other settings.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.motionshot-1.apk
+
+  - id: multi-frame-nr
+    name: Multi Frame NR
+    packageName: com.sony.imaging.app.multiframenr
+    version: "1.20"
+    size: 51MB
+    price: End of Sales
+    description: >-
+      Multi Frame NR — designed specially for shooting in dimly lit settings —
+      takes several photos in rapid succession then superimposes them to create
+      one low noise photo at the designated ISO speed. This is ideal for
+      obtaining beautiful, low-noise photos at night or in other dark settings
+      without flash, which can ruin the ambience of delicate lighting.
+    cameras:
+      - ILCE-5000
+      - ILCE-5100
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.multiframenr-1.apk
+
+  - id: multiple-exposure
+    name: Multiple Exposure
+    packageName: com.sony.imaging.app.doubleexposure
+    version: "1.31"
+    size: 85MB
+    price: End of Sales
+    description: >-
+      Just select a theme and this app automatically composites your exposures
+      with optimized settings. Multiple exposure shooting has never been easier.
+      You can choose from seven themes: Manual, Easy silhouette, Sky, Texture,
+      Rotate, Mirror or Soft Filter. If you choose the Manual theme, you can
+      preview the results of six blending modes and select the image you like
+      most.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.doubleexposure-1.apk
+
+  - id: my-best-portrait
+    name: My Best Portrait
+    packageName: com.sony.imaging.app.portraitbeauty
+    version: "1.42"
+    size: 63MB
+    price: Free
+    description: >-
+      This app lets you photograph people while preserving bright, beautiful
+      skin tones. You can add skin-softening and skin-brightening effects to
+      suit your preferences and create attractive selfies. After shooting, you
+      can add catch-light effects to bring a sparkle to your eyes.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.portraitbeauty-1.apk
+
+  - id: photo-retouch
+    name: Photo Retouch
+    packageName: com.sony.imaging.app.photoretouch
+    version: "1.30"
+    size: 63MB
+    price: Free
+    description: >-
+      This lets you edit previously shot photos in-camera. Use a variety of
+      editing tools — such as Framing, Brightness Control, Saturation Control,
+      Contrast Control, Horizontal Adjustment, Resize and Soft Skin Effect — to
+      make your shots look their best. The Framing tool includes Auto Portrait
+      Framing, which automatically detects a face and adjusts framing for the
+      most pleasing composition.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.photoretouch-1.apk
+
+  - id: picture-effect-plus
+    name: Picture Effect+
+    packageName: com.sony.imaging.app.pictureeffectplus
+    version: "1.31"
+    size: 8.8MB
+    price: Free
+    description: >-
+      This comprehensive collection of Picture Effects comes with new effects
+      allowing you to truly express yourself through your pictures. Partial
+      Color lets you select up to two colors before turning the image into a
+      black and white photo. Any object with the selected colors remain as
+      colored highlights, creating eye-catching accents.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.pictureeffectplus-1.apk
+
+  - id: portrait-lighting
+    name: Portrait Lighting
+    packageName: com.sony.imaging.app.portraitlighting
+    version: "1.11"
+    size: 85MB
+    price: End of Sales
+    description: >-
+      This app lets users easily accentuate people's faces and take stunning
+      portrait photos by adjusting the contrast and lighting level. In the past,
+      lighting for portrait photography required skill and expertise, but this
+      app makes it easy for anyone to recreate portrait lighting effects. The
+      lighting level can be selected from one of five levels or set with a
+      custom setting.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: Portrait Lighting_v1.10.apk
+
+  - id: sky-hdr
+    name: Sky HDR
+    packageName: com.sony.imaging.app.skyhdr
+    version: "1.11"
+    size: 79MB
+    price: End of Sales
+    description: >-
+      This application lets you optimize the exposure when you shoot scenes
+      containing vastly different brightness levels, such as dark landscapes
+      with the sun in a clear blue sky. By capturing the scene twice at
+      different exposure and shutter speed settings, then combining the best
+      of both images in a single image, this feature expresses a wide dynamic
+      range without using a graduated ND filter.
+    cameras:
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: Sky HDR_v1.10.apk
+
+  - id: smart-remote-control
+    name: Smart Remote Control
+    packageName: com.sony.imaging.app.srctrl
+    version: "4.31"
+    size: 85MB
+    price: Free
+    description: >-
+      This lets you control the camera with a smartphone. You'll find it a
+      great help for group photos when the camera is mounted on a tripod. You
+      can control exposure and shutter release — all from your smartphone. And
+      for added convenience, photos shot using the application will be
+      automatically sent to your smartphone for on-the-spot sharing. Requires
+      PlayMemories Mobile on the smartphone or tablet.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-HX90V
+      - DSC-WX500
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.srctrl-1.apk
+
+  - id: smooth-reflection
+    name: Smooth Reflection
+    packageName: com.sony.imaging.app.smoothreflection
+    version: "1.21"
+    size: 85MB
+    price: End of Sales
+    description: >-
+      This app lets you easily take magical long-exposure photos that normally
+      require an ND filter. For example, you can make lakes covered with ripples
+      look as smooth as glass. The Smooth Reflection app creates fantastical
+      long-exposure effects without an attached ND filter by combining a
+      sequence of continuous shots into one photo.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.smoothreflection-1.apk
+
+  - id: snapshot-me
+    name: Snapshot Me
+    packageName: com.sony.imaging.app.asktakephoto
+    version: "4.00"
+    size: 43MB
+    price: Free (BETA)
+    description: >-
+      This app assists getting someone to take your photo typically at
+      sightseeing spots. You can visually specify where and how big you would
+      like to be located in the pictures on the camera monitor. A frame around
+      a detected face changes from red to green when the face fits the specified
+      size and position.
+    cameras:
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.asktakephoto-1.apk
+
+  - id: sound-photo
+    name: Sound Photo
+    packageName: com.sony.imaging.app.soundphoto
+    version: "1.11"
+    size: 63MB
+    price: Free
+    description: >-
+      This application creates a Sound Photo, a photo with attached sound
+      recorded shortly before and after shooting, that creates a sense of
+      "being there" for the viewer. The user can set the length of the sound
+      recording and the Sound Photo content can be viewed and played on
+      computers, mobile devices, TVs and other equipment.
+    cameras:
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5100
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7M2
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+    apkFile: com.sony.imaging.app.soundphoto-1.apk
+
+  - id: star-trails
+    name: Star Trail
+    packageName: com.sony.imaging.app.startrails
+    version: "1.50"
+    size: 85MB
+    price: End of Sales
+    description: >-
+      This app shoots a series of starry sky still images at intervals then
+      combines them into one movie. Now you can easily create beautiful star
+      trail movies without a computer or time-consuming manual editing. Simply
+      select a theme and shoot! You can choose one of three themes: Dark Night,
+      Bright Night or Custom.
+    cameras:
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.startrails-1.apk
+
+  - id: stop-motion-plus
+    name: Stop Motion+
+    packageName: com.sony.imaging.app.stopmotion
+    version: "1.02"
+    size: 85MB
+    price: End of Sales
+    description: >-
+      This application automatically creates animations by combining images you
+      shoot one by one. So it's easy to make your own clay animation sequences
+      and more. You can view the scene transparently overlapping the previous
+      image as you shoot for easier, more accurate subject positioning.
+      Moreover, a miniature theme lets you give subjects the look of miniature
+      models.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.stopmotion-1.apk
+
+  - id: sync-to-smartphone
+    name: Sync to Smartphone
+    packageName: com.sony.imaging.app.synctosmartphone
+    version: "1.32"
+    size: 90MB
+    price: Free
+    description: >-
+      Whenever you turn the camera off, this app automatically transfers the
+      photos on your camera to a preregistered smartphone or tablet. This saves
+      you the effort of manually transferring photos over a Wi-Fi connection.
+      The transferred photos can then be automatically relayed to your
+      PlayMemories Online account. Requires PlayMemories Mobile on the
+      smartphone or tablet.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-HX90V
+      - DSC-WX500
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.synctosmartphone-1.apk
+
+  - id: time-lapse
+    name: Time-lapse
+    packageName: com.sony.imaging.app.timelapse
+    version: "3.40"
+    size: 9MB
+    price: End of Sales
+    description: >-
+      This app automatically shoots a series of still images at intervals then
+      combines them into one movie. It's so easy to use: just select a
+      time-lapse mode that most closely resembles what you are shooting and let
+      the camera do the rest! Eight time-lapse themes are available: Cloudy Sky,
+      Night Sky, Night Scene, Sunset, Sunrise, Miniature, Standard, Custom. You
+      can choose to save the still images as a series of photos instead of a
+      movie. Using Angle Shift Add-on, you can easily add pan, tilt, zoom and
+      other effects to your time-lapse images.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-5100
+      - ILCE-6000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.timelapse-1.apk
+
+  - id: touchless-shutter
+    name: Touchless Shutter
+    packageName: com.sony.imaging.app.touchlessshutter
+    version: "1.01"
+    size: 59MB
+    price: Free (BETA)
+    description: >-
+      With this application, you can simply hold your hand over the eye sensor
+      to release the shutter. Now you can operate the shutter without touching
+      the camera, thus eliminating camera shake once and for all. When
+      bulb-shooting, hold your hand over the eye sensor twice to start and end
+      the exposure.
+    cameras:
+      - DSC-HX400V
+      - DSC-HX60V
+      - DSC-RX100M3
+      - DSC-RX100M4
+      - DSC-RX100M5
+      - DSC-RX10M2
+      - DSC-RX10M3
+      - DSC-RX1RM2
+      - ILCE-5000
+      - ILCE-6300
+      - ILCE-6500
+      - ILCE-7
+      - ILCE-7M2
+      - ILCE-7R
+      - ILCE-7RM2
+      - ILCE-7S
+      - ILCE-7SM2
+      - NEX-5R
+      - NEX-5T
+      - NEX-6
+    apkFile: com.sony.imaging.app.touchlessshutter-1.apk
