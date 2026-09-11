@@ -6,6 +6,36 @@ At the end you'll have a real Mac app (a `.dmg` file, the same kind of installer
 
 Expect this to take about 20–30 minutes the first time, mostly waiting for downloads.
 
+## Easiest option: download the ready-made app (no building)
+
+If you don't want to build anything yourself, you can download a finished installer from the project's Releases page:
+
+**https://github.com/phn-cloudsnake/pmce/releases/latest**
+
+Under **Assets**, download the file for your system:
+
+- **Mac (Apple Silicon — M1/M2/M3/M4):** the file ending in `-arm64.dmg`
+- **Windows:** the file ending in `.exe`
+- **Linux:** the file ending in `.AppImage`
+
+Then open it like any other installer. On a Mac, double-click the `.dmg` and drag the **PMCE** icon into your **Applications** folder.
+
+### If macOS says the app is "damaged" or "cannot be opened"
+
+This is expected and does **not** mean the file is broken. Because this is a free community app that isn't signed with a paid Apple certificate, macOS blocks it on first open and shows a scary message like *"PMCE is damaged and can't be opened."*
+
+To allow it, first make sure you've dragged **PMCE** into your **Applications** folder, then open **Terminal** (see Step 1 below for how) and paste this line exactly, then press `Return`:
+
+```bash
+xattr -dr com.apple.quarantine /Applications/PMCE.app
+```
+
+Nothing visible happens — that's fine. Now open PMCE from your Applications folder or Launchpad and it will start normally. You only need to do this once per download.
+
+> Why this happens: macOS adds a "downloaded from the internet" flag to the app, and refuses to open unsigned apps that have it. The command above simply removes that flag. It's safe.
+
+If you'd rather build the app yourself instead, keep reading.
+
 ## What you'll be doing
 
 1. Open the Terminal app (a place to type commands).
@@ -124,7 +154,16 @@ Double-click it, then drag the **PMCE** icon into your **Applications** folder, 
 
 > The first time you open it, macOS may warn that it's from an unidentified developer (because this is a community build, not from the App Store). If that happens: open **System Settings → Privacy & Security**, scroll to the bottom, and click **Open Anyway**.
 
-## Building it again later
+> **First-launch warnings are normal.** Because this is a community build (not signed with a paid Apple certificate), macOS may block the first launch. What you see depends on your macOS version:
+>
+> - If it says the app is from an **unidentified developer**: open **System Settings → Privacy & Security**, scroll to the bottom, and click **Open Anyway**.
+> - If it says the app is **"damaged and can't be opened"**: the file is fine — macOS is just blocking an unsigned app. Make sure PMCE is in your **Applications** folder, then run this in Terminal once:
+>
+>   ```bash
+>   xattr -dr com.apple.quarantine /Applications/PMCE.app
+>   ```
+>
+>   Then open PMCE normally. This removes the "downloaded from the internet" flag and is safe.
 
 If you already did all of this once and just want a fresh build later, you only need to reopen Terminal and run:
 
