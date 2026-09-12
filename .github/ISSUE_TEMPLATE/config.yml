@@ -1,0 +1,9 @@
+# Require people to choose a template instead of opening an empty "Not working" issue.
+blank_issues_enabled: false
+contact_links:
+  - name: Questions & general help
+    url: https://github.com/phn-cloudsnake/pmce/discussions
+    about: For "how do I...?" questions and general discussion, please use Discussions rather than filing a bug.
+  - name: First-launch warning ("app is damaged" / "unidentified developer")
+    url: https://github.com/phn-cloudsnake/pmce/blob/main/WALKTHROUGH.md
+    about: This is expected for unsigned community builds — the walkthrough explains how to open the app. Not a bug.

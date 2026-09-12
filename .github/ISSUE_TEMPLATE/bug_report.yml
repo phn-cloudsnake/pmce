@@ -1,0 +1,96 @@
+name: Bug report
+description: Something isn't working. Help us reproduce and fix it.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug. A little detail here saves a lot of back-and-forth.
+        Please fill in as much as you can — "Not working" on its own is very hard to act on.
+
+  - type: checkboxes
+    id: preflight
+    attributes:
+      label: Before you start
+      description: A couple of quick checks that resolve most reports.
+      options:
+        - label: I searched [existing issues](https://github.com/phn-cloudsnake/pmce/issues?q=is%3Aissue) and this isn't a duplicate.
+          required: true
+        - label: I'm using the latest release from the [Releases page](https://github.com/phn-cloudsnake/pmce/releases/latest).
+          required: true
+
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe the problem. What did you expect, and what actually happened instead?
+      placeholder: |
+        I clicked "Install app", selected an APK, and after about 5 seconds it showed "Install failed".
+        I expected the app to install onto the camera.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The exact steps, in order, so we can trigger the same problem.
+      placeholder: |
+        1. Connect camera via USB
+        2. Open PMCE
+        3. Click "Read camera info" — this works
+        4. Click "Install app" and choose example.apk
+        5. Error appears
+    validations:
+      required: true
+
+  - type: textarea
+    id: error-text
+    attributes:
+      label: Error message or logs
+      description: Copy the exact error text if there is one. Screenshots are welcome too.
+      render: text
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system
+      options:
+        - macOS (Apple Silicon — M1/M2/M3/M4)
+        - macOS (Intel)
+        - Windows
+        - Linux
+    validations:
+      required: true
+
+  - type: input
+    id: os-version
+    attributes:
+      label: OS version
+      placeholder: "e.g. macOS 15.1, Windows 11 23H2, Ubuntu 24.04"
+    validations:
+      required: true
+
+  - type: input
+    id: app-version
+    attributes:
+      label: PMCE version
+      description: Shown on the release you downloaded (e.g. v0.1.0).
+      placeholder: "v0.1.0"
+    validations:
+      required: true
+
+  - type: input
+    id: camera-model
+    attributes:
+      label: Camera model
+      description: If the problem involves a camera, tell us exactly which one.
+      placeholder: "e.g. Sony DSC-RX100 III, A6000, A7 II"
+
+  - type: input
+    id: firmware
+    attributes:
+      label: Camera firmware version
+      description: If known — PMCE can read this under "Camera info".
+      placeholder: "e.g. 1.20"

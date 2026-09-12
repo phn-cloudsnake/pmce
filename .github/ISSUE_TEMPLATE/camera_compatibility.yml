@@ -1,0 +1,65 @@
+name: Camera compatibility report
+description: Tell us whether PMCE works with your Sony camera (success or failure both help!).
+title: "[Camera]: <model> — works / doesn't work"
+labels: ["camera-compatibility"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        We're building a picture of which cameras PMCE works with. Reports of **success** are just as valuable as failures —
+        they help other users know what to expect. Thanks for contributing!
+
+  - type: input
+    id: camera-model
+    attributes:
+      label: Camera model
+      placeholder: "e.g. Sony DSC-RX100 III, A6000, A7 II"
+    validations:
+      required: true
+
+  - type: input
+    id: firmware
+    attributes:
+      label: Camera firmware version
+      description: PMCE can read this under "Camera info".
+      placeholder: "e.g. 1.20"
+
+  - type: dropdown
+    id: result
+    attributes:
+      label: What was the result?
+      options:
+        - Everything worked (info + app install)
+        - Reading camera info worked, app install did not
+        - Camera was not detected at all
+        - Other (explain below)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: features
+    attributes:
+      label: Which features did you try?
+      options:
+        - label: Read camera info (model, serial, firmware, lens, GPS range)
+        - label: Install an app (APK)
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details
+      description: What worked, what didn't, and any error messages. Include the exact APK name if an install failed.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: os
+    attributes:
+      label: Operating system you ran PMCE on
+      options:
+        - macOS (Apple Silicon — M1/M2/M3/M4)
+        - macOS (Intel)
+        - Windows
+        - Linux
+    validations:
+      required: true
