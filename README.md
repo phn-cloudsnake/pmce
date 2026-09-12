@@ -1,4 +1,8 @@
-# Play Memories Community Edition (PMCE)
+<p align="center">
+  <img src="pmce-app/public/icons/pmce-logo.png" alt="PMCE logo" width="180" />
+</p>
+
+<h1 align="center">Play Memories Community Edition (PMCE)</h1>
 
 A community effort to revive Sony PlayMemories camera features that were abandoned by Sony. This monorepo contains a TypeScript USB protocol library and a desktop GUI that let you read camera info and install apps onto Sony cameras.
 
@@ -14,6 +18,22 @@ Continuation of [Sony-PMCA-RE](https://github.com/ma1co/Sony-PMCA-RE).
 ## Features
 - **Camera info** — Read model name, serial number, firmware version, lens info, and GPS data range
 - **App installation** — Install APK files onto the camera via the Sony app install protocol
+
+## Confirmed cameras
+
+Compatibility is community-reported. A badge shows how well each model works based on user reports:
+
+![confirmed](https://img.shields.io/badge/confirmed-brightgreen) fully working (info + app install) ·
+![partial](https://img.shields.io/badge/partial-yellow) some features work ·
+![untested](https://img.shields.io/badge/untested-lightgrey) no reports yet
+
+| Camera | Status | Notes |
+|--------|--------|-------|
+| ILCE-6000 | ![confirmed](https://img.shields.io/badge/confirmed-brightgreen) | Dev's own camera aka 'It works on my machine' | 
+
+> **Tried PMCE with your camera?** Please tell us, whether it worked or not, by opening a
+> [camera compatibility report](https://github.com/phn-cloudsnake/pmce/issues/new?template=camera_compatibility.yml).
+> Successful reports are just as valuable as failures. Confirmed models get added to the table above.
 
 ## Future development 
 Currently I have no intention supporting these features in the near future. That might change with enough community support.
@@ -43,7 +63,7 @@ The desktop GUI (`pmce-app`) is a Quasar (Vue 3 + Pinia) application packaged wi
 
 ## Requirements
 
-- Node.js ≥ 18
+- Node.js ≥ 22
 - PNPM (workspace monorepo manager)
 - A WebUSB-capable environment (Electron / Chromium) for USB runtime use
 - A Sony camera with PlayMemories support
