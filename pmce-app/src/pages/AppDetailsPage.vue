@@ -216,7 +216,7 @@ async function installApp() {
       `${import.meta.env.BASE_URL}apps/${app.value.apkFile}`,
       window.location.href,
     ).href;
-    const response = await fetch(apkUrl);
+    const response = await fetch(app.value.apkFile ?? apkUrl);
     if (!response.ok) {
       throw new Error(`Failed to load APK file: ${response.statusText}`);
     }
