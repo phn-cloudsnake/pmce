@@ -11,7 +11,8 @@ export interface AppEntry {
   price: string;
   description: string;
   cameras: string[];
-  apkFile: string;
+  apkFile?: string;
+  apkURL?: string;
 }
 
 interface AppsYaml {
@@ -21,11 +22,24 @@ interface AppsYaml {
 const catalog = ref<AppEntry[]>([]);
 let loaded = false;
 
-function loadCatalog(): void {
+async function loadCatalog(): Promise<void> {
   if (loaded) return;
-  const data = parse(appsYamlRaw) as AppsYaml;
-  catalog.value = data.apps;
+  const {apps} = parse(appsYamlRaw) as AppsYaml;
+  console.log(apps)
+  const jpegcam = apps.find((app) => app.id === 'jpegcam')
+  if(jpegcam) {
+    await fetchJPEGCAMLatestBuild(jpegcam)
+  }
+
+  catalog.value = apps;
   loaded = true;
+}
+
+async function fetchJPEGCAMLatestBuild(jpegcam:AppEntry) {
+  const resp = await fetch('https://jpegcookbook.com/jpegcam-release.json')
+  const {version, build} = await resp.json()
+  jpegcam.version = version
+  jpegcam.apkURL = `https://get.jpeg.cam/JPEGCAM-v${version}.apk?build=${build}`  
 }
 
 export function useAppCatalog() {
